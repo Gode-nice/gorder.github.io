@@ -1,0 +1,76 @@
+body{
+    margin:0px;
+}
+.all{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.head{
+    padding: 0;
+}
+.head1{
+    height: 40px;
+    width: 100%;
+    background: #000;
+}
+.head2{
+    height: 70px;
+    width: 100%;
+}
+.left{
+    background: #000;
+    height: 300px;
+}
+.right{
+    height: 300px;
+    padding: 0;
+    background: #333;
+}
+.center{
+    text-align: center;
+}
+input{
+    width: 100%;
+}
+.form{
+    margin-top: 60px;
+}
+.formbutton{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+}
+.fb_left{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    background: #189a9e;
+}
+.fb_right{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    background: #189e5b;
+}
+p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #fff;
+}
+img{
+    min-height: 300px;
+    max-height: 300px;
+    width: 100%;
+}
+.nomg{
+    margin: 0;
+}
+.nopd{
+    padding: 0;
+}

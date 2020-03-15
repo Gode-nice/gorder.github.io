@@ -1,0 +1,81 @@
+body{
+    margin:0px;
+    background: #000;
+}
+.all{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.head1{
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    background: #000;
+    color: white;
+    font-weight: 100;
+}
+.hd_font{
+    margin-top: 10px;
+    text-align: center;
+}
+.change{}
+.change:hover{
+    background: #555;
+}
+.head2{
+    background: #fff;
+    height: 70px;
+    width: 100%;
+}
+.ipt{
+    width: 70%;
+    color: #000;
+}
+.search{
+    border-radius: 4px;
+    background: rgb(65, 175, 22);
+    color: white;
+    width: 70%;
+}
+.search:hover{
+    background: rgb(45, 134, 10);
+}
+.show{
+    background: #333;
+    color: white;
+    font-weight: 100;
+}
+.form{
+    padding: 20px 0px;
+    background: #000;
+    color: white;
+    font-weight: 100;
+}
+.choose{
+    height: 500px;
+    background: #000;
+    margin-right: 0;
+    padding-right: 0;
+}
+.dataform{
+    height: 500px;
+    background: #666;
+}
+.tap1{
+    width: 100%;
+    border: #666;
+    background: #888;
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.tap1:hover{
+    background: #666;
+}
+.tap2{}
+.center{
+    margin-top: 8px;
+    text-align: center;
+    color: #fff;
+}
