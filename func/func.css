@@ -2,6 +2,8 @@ body{
     margin:0px;
     background: paleturquoise;
 }
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
 .all{
     margin: 0;
     padding: 0;
@@ -18,13 +20,18 @@ body{
     font-weight: 100;
 }
 .hd_font{
+    text-decoration:none;
+    color: black;
     margin-top: 10px;
     text-align: center;
 }
+.hd_font:hover{
+    color: #fff;
+}
+
 .change{}
 .change:hover{
     background: darkcyan;
-    color: #fff;
 }
 .head2{
     background: #fff;
@@ -41,6 +48,10 @@ body{
 }
 .fm{
     margin-bottom: 10px;
+}
+.number{
+    padding-left: 30px;
+    font-weight: 1000;
 }
 .search{
     border-radius: 4px;
@@ -74,6 +85,7 @@ body{
     height: 500px;
     background: rgb(185, 245, 245);
 }
+.datafor{min-height: 440px;}
 .tap1{
     width: 100%;
     border: #666;

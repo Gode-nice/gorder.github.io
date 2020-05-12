@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    background: paleturquoise;
+}
+.all{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.head1{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    background: mediumturquoise;
+    /* color: white; */
+    font-weight: 100;
+}
+.hd_font{
+    margin-top: 10px;
+    text-align: center;
+}
+.change{}
+.change:hover{
+    background: darkcyan;
+    color: #fff;
+}
+.head2{
+    background: #fff;
+    margin-top: 40px;
+    height: 70px;
+    width: 100%;
+}
+.center{
+    margin-top: 8px;
+    text-align: center;
+}
+.td{
+    height: 300px;
+    border-top:  1px solid #666;
+    border-left:  1px solid #666;
+    border-right:  1px solid #666;
+}
+.footer{
+    margin-top: 200px;
+}

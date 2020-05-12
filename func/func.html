@@ -14,16 +14,16 @@
             <div class="col-md-12 head">
                 <div class="row head1">
                     <div class="col-md-1 col-sm-12 col-xs-12">
-                        <p class="hd_font">logo</p>
+                            <img src="../img/computer.png" style=" margin-top:6px;width: 26px;height:26px">
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-4 col-md-offset-1 change">
-                        <p class="hd_font">积分兑换</p>
-                    </div>
-                    <div class="col-md-2 col-sm-3 col-xs-4 change">
                         <p class="hd_font">消费数据</p>
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-4 change">
-                        <p class="hd_font">信息详情</p>
+                        <a href="../exchange/exch.html"><p class="hd_font">积分兑换</p></a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 change">
+                        <a href="../history/hstr.html"><p class="hd_font">信息详情</p></a>
                     </div>
                     <div class="col-md-2 col-sm-3 col-xs-12 col-md-offset-2 ">
                         <p class="hd_font">id:思源餐厅</p>
@@ -36,8 +36,8 @@
         <div class="visible-xs" style="height: 20px;width:100%;"></div>
         <div class="body">
             <div class="row show">
-                <div class="col-md-2 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2">今日盈利</div>
-                <div class="col-md-2 col-sm-3 col-xs-6">消费人数</div>
+                <div class="col-md-2 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2">今日盈利:<span class="number">135</span></div>
+                <div class="col-md-2 col-sm-3 col-xs-6">消费人数:<span class="number">6</span></div>
             </div>
             <div class="row form">
                 <form action="post">
@@ -53,20 +53,84 @@
                         <button class="tap1">修改记录</button>
                     </div>
                     <div class="col-md-8 col-sm-8 col-xs-9 dataform">
-                        <div class="row">
-                            <div class="col-xs-2 col-sm-2 td center">卡号</div>
-                            <div class="col-xs-2 col-sm-2 td center">金额</div>
-                            <div class="col-xs-2 col-sm-2 td center">日期</div>
-                            <div class="col-xs-2 col-sm-2 td center">学校</div>
-                            <div class="col-xs-2 col-sm-2 td center">操作人</div>
-                            <div class="col-xs-2 col-sm-2 td center">修改</div>
+                        <div class="datafor">
+                            <table class="table table-condensed">
+                                    <caption>消费记录</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>卡号</th>
+                                            <th>金额</th>
+                                            <th>日期</th>
+                                            <th>学校</th>
+                                            <th>操作人</th>
+                                            <th>修改</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0xbdc8</td>
+                                            <td>17</td>
+                                            <td>2020/05/01</td>
+                                            <td>SUIBE</td>
+                                            <td>Mr.9</td>
+                                            <td>未修改</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0xbdc7</td>
+                                            <td>23</td>
+                                            <td>2020/05/01</td>
+                                            <td>SUIBE</td>
+                                            <td>Mr.8</td>
+                                            <td>未修改</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0xbdc6</td>
+                                            <td>18</td>
+                                            <td>2020/05/01</td>
+                                            <td>SUIBE</td>
+                                            <td>Mrs.2</td>
+                                            <td>未修改</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0xbdc5</td>
+                                            <td>22</td>
+                                            <td>2020/05/01</td>
+                                            <td>SUIBE</td>
+                                            <td>Mrs.9</td>
+                                            <td>未修改</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0xbdc4</td>
+                                            <td>20</td>
+                                            <td>2020/05/01</td>
+                                            <td>SUIBE</td>
+                                            <td>Mrs.2</td>
+                                            <td>未修改</td>
+                                        </tr>
+                                        <tr>
+                                            <td>0xbdc3</td>
+                                            <td>35</td>
+                                            <td>2020/05/01</td>
+                                            <td>SUIBE</td>
+                                            <td>Mr.8</td>
+                                            <td>未修改</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        <div class="center">
+                        <ul class=" pagination pagination-sm">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
                         </div>
                     </div>
             </div>
         </div>
     </div>
     <div class="footer row center">
-        <div>©你是谁</div>
+        <div>--  演示中  --</div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->

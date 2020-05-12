@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../btsp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="exch.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container all">
+        <div class="row">
+            <div class="col-md-12 head">
+                <div class="row head1">
+                    <div class="col-md-1 col-sm-12 col-xs-12">
+                            <img src="../img/computer.png" style=" margin-top:6px;width: 26px;height:26px">
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 col-md-offset-1 change">
+                        <a href="../func/func.html"><p class="hd_font">消费数据</p></a>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 change">
+                        <p class="hd_font">积分兑换</p>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-4 change">
+                        <p class="hd_font">信息详情</p>
+                    </div>
+                    <div class="col-md-2 col-sm-3 col-xs-12 col-md-offset-2 ">
+                        <p class="hd_font">id:思源餐厅</p>
+                    </div>
+                </div>
+                <div class="head2">
+                </div>
+            </div>
+            <div class="col-md-12 body">
+                <div class="row">
+                    <div class="col-sm-12 block"></div>
+                    <div class=" center col-sm-offset-3 col-sm-2">
+                        <img src="../img/ji_fen.png" style="margin-bottom:10px; width: 50px;height:50px">
+                        <div id='change1'>当前可兑 : 135</div>
+                    </div>
+                    <div class="center col-sm-2">
+                            <div class="row">
+                                    <input type="text" class=" col-xs-6 col-xs-offset-3" id="name" placeholder="兑换量">
+                                <button class="col-xs-6 col-xs-offset-3" onclick="lin_shi()" data-toggle="modal" data-target="#myModal">确认</button>
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                    <h4 class="modal-title" id="myModalLabel">兑换成功</h4>
+                                                </div>
+                                                <div class="modal-body">兑换额：135单位</div>
+                                                <div class="modal-footer">
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal -->
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="center col-sm-2">
+                        <img src="../img/rmb.png" style="margin-bottom:10px; width: 50px;height:50px">
+                        <div id='change2'>已兑换 : ¥8685</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer row center">
+        <div>--  演示中  --</div>
+    </div>
+    <script >
+    function lin_shi(){
+	document.getElementById("change1").innerHTML='当前可兑 : 0';
+    document.getElementById("change2").innerHTML='已兑换 : ¥8820';
+}
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="../btsp/js/bootstrap.min.js"></script>
+</body>
+</html>
